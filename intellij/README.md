@@ -4,8 +4,75 @@
     <span>IntelliJ IDEA</span>
 </h1>
 
-**IntelliJ IDEA** é da empresa JetBrains, muito conhecida por desenvolver IDE's e por ser a empresa que criou e mantém uma 
-das linguagens filhas do Java, o Kotlin.
+**IntelliJ IDEA** é um ambiente de desenvolvimento integrado e com reconhecimento de contexto 
+para trabalhar com **Java** e outras linguagens que rodam na **JVM**, como **Kotlin**, **Scala** e **Groovy**.
+
+`.idea` onde ficam todas as configurações do IntelliJ.
+
+## Atalhos
+
+**`Alt + 1`** Ocultar ou mostrar a view do projeto.
+
+**`Alt + Enter`** Possibilitar ações por meio da feature Show Intention Action - por meio de suas sugestões.
+
+**`Alt + Insert`** Criar algum arquivo.
+
+**`Alt + Shift + Insert`** Modificar o modo de seleção para coluna.
+
+**`Alt + Shift + Setas para cima ou baixo`** Mover linhas de código.
+
+**`Alt + Shift + F10 / Ctrl + Shift + F10`** Executar classe com método `main()`.
+
+**`Alt + F7`** Visualizar onde o código está sendo utilizado.
+
+**`Ctrl + B`** Navegar diretamente até o trecho em que o código foi implementado.
+
+**`Ctrl + D`** Duplicar trecho de código.
+
+**`Ctrl + E`** Visualizar arquivos recentes.
+
+**`Ctrl + H`** Visualizar hierarquia.
+
+**`Ctrl + N`** Pesquisar classe.
+
+**`Ctrl + Y`** Apagar linhas de código.
+
+**`Ctrl + Alt + L`** Formatar o código.
+
+**`Ctrl + Shift + A`** Pesquisar qualquer funcionalidade do IntelliJ.
+
+**`Ctrl + Shift + F`** Pesquisar trechos de código.
+
+**`Ctrl + Shift + N`** Pesquisar arquivos.
+
+**`Ctrl + Shift + Alt + N`** Pesquisar símbolos.
+
+**`Ctrl + Barra(/)`** Comentar código.
+
+**`Shift + F6`** Renomear variáveis.
+
+**`Shift + Shift`** Pesquisar qualquer coisa.
+
+**`F5`** Copiar um arquivo.
+
+**`F6`** Mover um arquivo.
+
+**`"psvm" + Tab`** Implementar o método main.
+
+**`"sout" + Tab`** Implementar o método de impressão.
+
+## Atalhos Debug
+
+**`Alt + Shift + F9 / Ctrl + Shift + D`** Executar o modo debug.
+
+**`F7`** **(Step Into)** Executar cada trecho do código.
+- Útil nos trechos de código que queremos entender detalhe por detalhe do que está acontecendo.
+
+**`F8`** **(Step Over)** Executar a linha inteira do código.
+- Útil nos trechos de código que queremos apenas avançar sem nos aprofundar mais nas informações internas.
+
+**`Shift + F8`** **(Step Out)** Sair do método em que se está.
+- Útil quando entramos, sem querer, dentro de um método que não queremos inspecionar.
 
 ## Instalando no Windows
 
@@ -61,3 +128,7 @@ mesmo sem a reinicialização.
 Por fim, podemos clicar no botão **"Finish"**, para finalizar o instalador, como na imagem abaixo:
 
 ![img_6.png](img/img_6.png)
+
+## Referências
+
+[IntelliJ IDEA: dicas e truques para usar no dia a dia](https://www.alura.com.br/artigos/intellij-idea-dicas-truques-usar-no-dia-a-dia?_gl=1*1s1t1td*_ga*MTM1MTM4MTY2LjE3MTAxNTMzMTY.*_ga_1EPWSW3PCS*MTcxMDE3NjMxOS40LjEuMTcxMDE3OTM0OS4wLjAuMA..*_fplc*NzdXZE9aR0tHbDV6RjhVS0d2eWg1anpVZFdlZ2IlMkJQWHM2S2hrTDNLZU1zUEFYQ2JYcDlEeTVVd2s0JTJGJTJCMmg2ZWo1Y0liaTBucW90VXNBQXglMkZqVGhiS2o2dyUyRlBNV3lZd3JKNndQMVJNUFhlcjZjVm4yWTUlMkZ4MG1NeGxxMEpRJTNEJTNE)
